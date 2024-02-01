@@ -9,6 +9,8 @@ import { AddProjectResponseContext } from '../Contexts/ContextShare';
 function AddProjects() {
 
   const {addProjectResponse, setAddProjectResponse} = useContext(AddProjectResponseContext)
+
+  
   //state to hold value from input box in modal
   const [projectDetails,setProjectDetails] = useState({
     title:"",
